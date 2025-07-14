@@ -12,3 +12,6 @@ def get_count(content):
     for char in arr:
        res[char]=tmp.count(char)
     return res
+
+def sort_on(items):
+    return items['num']
